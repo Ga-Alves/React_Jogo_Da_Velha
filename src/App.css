@@ -1,0 +1,26 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.App > div{
+  width: 152px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+
+  background-color: black;
+}
+
+.App div.Row{
+  display: flex;
+  justify-content: space-between;
+}
